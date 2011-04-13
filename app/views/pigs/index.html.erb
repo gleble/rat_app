@@ -1,0 +1,25 @@
+<h1>Listing pigs</h1>
+
+<table>
+  <tr>
+    <th>Cat</th>
+    <th>Title</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @pigs.each do |pig| %>
+  <tr>
+    <td><%= pig.cat %></td>
+    <td><%= pig.title %></td>
+    <td><%= link_to 'Show', pig %></td>
+    <td><%= link_to 'Edit', edit_pig_path(pig) %></td>
+    <td><%= link_to 'Destroy', pig, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Pig', new_pig_path %>

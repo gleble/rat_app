@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Cat:</b>
+  <%= @pig.cat %>
+</p>
+
+<p>
+  <b>Title:</b>
+  <%= @pig.title %>
+</p>
+
+
+<%= link_to 'Edit', edit_pig_path(@pig) %> |
+<%= link_to 'Back', pigs_path %>
