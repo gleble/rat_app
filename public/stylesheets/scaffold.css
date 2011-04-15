@@ -1,7 +1,8 @@
 body { 
   background-color: #ddd; 
   color: #333
-  padding:30px; 
+  padding:30px;
+  margin: auto; 
 }
 
 body, p, ol, ul, td {
@@ -13,6 +14,7 @@ body, p, ol, ul, td {
   width:1000px;
   height:2000px;
   background-color: #eee;
+  padding:30px;
 }
 pre {
   background-color: #eee;
