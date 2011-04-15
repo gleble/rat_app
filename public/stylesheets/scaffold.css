@@ -9,7 +9,11 @@ body, p, ol, ul, td {
   font-size:   13px;
   line-height: 18px;
 }
-
+#box {
+  width:1000px;
+  height:2000px;
+  background-color: #eee;
+}
 pre {
   background-color: #eee;
   padding: 10px;
