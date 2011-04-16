@@ -1,8 +1,7 @@
 body { 
   background-color: #ddd; 
   color: #333
-  padding-left: 149px;
-  padding-top: 51px;
+  padding: 51px 0px 0px 149px;
   margin: 0px auto; 
 }
 
