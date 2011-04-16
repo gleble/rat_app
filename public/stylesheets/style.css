@@ -10,7 +10,7 @@ body, p, ol, ul, td {
   font-size:   13px;
   line-height: 18px;
 }
-body, h1 {
+h1 {
   text-align:center;
 }
 #box {
