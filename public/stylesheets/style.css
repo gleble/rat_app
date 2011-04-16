@@ -10,6 +10,9 @@ body, p, ol, ul, td {
   font-size:   13px;
   line-height: 18px;
 }
+body, h1 {
+  text-align:center;
+}
 #box {
   width:1000px;
   height:2000px;
