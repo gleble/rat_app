@@ -5,12 +5,12 @@ body {
   margin: 0px auto; 
 }
 
-body, p, ol, ul, td {
+body,  ol, ul, td {
   font-family: verdana, arial, helvetica, sans-serif;
   font-size:   13px;
   line-height: 18px;
 }
-h1 {
+h1 , p {
   text-align:center;
 }
 #box {
